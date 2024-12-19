@@ -9,7 +9,8 @@ A simple and elegant quiz application built with React. The quiz asks multiple-c
 - Displays a summary of answers at the end of the quiz.
 - Elegant background with smooth transitions and animations.
 
-## Demo
+## preview
+
 
 ![quiz](https://github.com/user-attachments/assets/e61fe24d-4871-4df3-bd64-99f067f84826)
 
