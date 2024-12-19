@@ -11,7 +11,10 @@ A simple and elegant quiz application built with React. The quiz asks multiple-c
 
 ## Demo
 
-You can view a live demo of this project [here](#link-to-demo).
+![quiz](https://github.com/user-attachments/assets/e61fe24d-4871-4df3-bd64-99f067f84826)
+
+
+
 
 ## Technologies Used
 
