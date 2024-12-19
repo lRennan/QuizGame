@@ -1,0 +1,82 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #3498db, #8e44ad); /* Gradiente suave de azul para roxo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  width: 350px;
+  backdrop-filter: blur(10px); /* Adiciona o efeito de desfoque ao fundo */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.question h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  background-color: #2ecc71; /* Verde brilhante */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 5px;
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.option-btn:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.option-btn:hover {
+  background-color: #27ae60; /* Efeito hover */
+}
+
+.next-btn {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.next-btn:hover {
+  background-color: #e67e22;
+}
+
+.next-btn:active {
+  transform: scale(0.98);
+}
